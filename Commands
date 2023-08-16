@@ -1,0 +1,63 @@
+docker build -t myapp/v1 .
+
+docker images
+
+docker rmi imageid
+
+docker run -p 4000:4000 myapp/v1 
+
+docker ps
+
+docker ps -a
+
+docker kill containerid
+
+docker stop containerid
+
+docker push 
+
+docker pull
+
+docker-compose build
+
+docker-compose up -d mango
+
+docker ps
+
+docker-compose up -d app
+
+docker ps
+
+docker logs containerID
+
+docker logs containerID
+
+ipaddress:4000
+
+docker-compose stop
+
+docker build -t myappfrontend .
+
+docker images
+
+docker run -p 30000:3000 myappfrontend
+
+docker build -t myapp1
+
+swarm
+
+docker swarm init
+
+docker info
+
+docker node ls
+
+docker stack doploy -c docker-compose.yml
+
+docker service create --replicas 1 -- name nodeservice2 node ping docker.com
+
+
+
+
+
+
